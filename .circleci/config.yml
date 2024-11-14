@@ -14,7 +14,7 @@ jobs:
               command: npm install
           - run:
               name: Build the app
-              command: npm run build
+              command: npm run render build
 
 workflows:
   run-tests: 
