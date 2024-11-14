@@ -17,7 +17,7 @@ jobs:
               command: npm run build
 
 workflows:
-  run-tests:
+  run-tests: 
     jobs:
       - start-server
       - cypress/run:
